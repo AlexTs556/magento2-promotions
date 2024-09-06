@@ -1,6 +1,6 @@
 {
     "name": "kodano/module-promotions",
-    "version": "1.0.2",
+    "version": "1.0.0",
     "description": "A Magento 2 module for managing promotions.",
     "type": "magento2-module",
     "license": "MIT",
