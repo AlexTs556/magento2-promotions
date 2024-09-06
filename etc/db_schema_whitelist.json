@@ -1,0 +1,36 @@
+{
+    "kodano_promotions": {
+        "column": {
+            "promotion_id": true,
+            "name": true,
+            "created_at": true,
+            "updated_at": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    },
+    "kodano_promotion_groups": {
+        "column": {
+            "group_id": true,
+            "name": true,
+            "created_at": true,
+            "updated_at": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    },
+    "kodano_promotion_group_link": {
+        "column": {
+            "link_id": true,
+            "promotion_id": true,
+            "group_id": true
+        },
+        "constraint": {
+            "PRIMARY": true,
+            "FK_PROMOTION_GROUP_LINK_PROMOTION_ID": true,
+            "FK_PROMOTION_GROUP_LINK_GROUP_ID": true
+        }
+    }
+}
